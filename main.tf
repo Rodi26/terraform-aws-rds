@@ -78,4 +78,5 @@ resource "aws_db_instance" "education" {
   publicly_accessible    = true
   skip_final_snapshot    = true
   storage_encrypted      = var.db_encrypted
+  
 }

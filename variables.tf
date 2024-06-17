@@ -12,6 +12,6 @@ variable "db_password" {
 }
 
 variable "db_encrypted" {
-  description = "Encrypt the database storage"
+  description = "Encrypt the database storage "
   type = bool
 }
