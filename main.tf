@@ -69,7 +69,7 @@ resource "aws_db_instance" "education" {
   instance_class         = "db.t3.micro"
   allocated_storage      = 5
   engine                 = "postgres"
-  engine_version         = "14.1"
+  engine_version         = "14.9"
   username               = var.db_username
   password               = var.db_password
   db_subnet_group_name   = aws_db_subnet_group.education.name
@@ -78,5 +78,5 @@ resource "aws_db_instance" "education" {
   publicly_accessible    = true
   skip_final_snapshot    = true
   storage_encrypted      = var.db_encrypted
-  
+
 }
