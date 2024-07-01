@@ -11,7 +11,4 @@ variable "db_password" {
   sensitive   = true
 }
 
-variable "db_encrypted" {
-  description = "Encrypt the database storage "
-  type = bool
-}
+
